@@ -1,0 +1,26 @@
+*{
+    background-color: antiquewhite;
+    color: rgb(36, 3, 187);
+    font-size: 15px;
+    font-weight: 500;
+  
+}
+
+
+h1#title {
+    text-align: center;
+    color: brown;
+}
+p#description {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: brown;
+
+}
+.table{
+    padding-top:30px;
+}
+/* table#myTable {
+    visibility: hidden;
+} */
