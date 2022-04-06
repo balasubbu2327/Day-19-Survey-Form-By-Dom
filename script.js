@@ -46,12 +46,12 @@ button.addEventListener("click",submit);
  maleLabel.className="form-check-label";
  var femaleLabel=label('femaleid',"Female");
  femaleLabel.className="form-check-label";
- var foodlistLabel=label("foodlist","Choose The Food :");
- var food1label=label("food1","Noodles");
- var food2label=label("food2","Chicken");
- var food3label=label("food3","Briyani");
- var food4label=label("food4","Chapathi");
- var food5label=label("food5","icecream");
+ var foodlistLabel=label("foodlist","Choose Your Food :");
+ var food1label=label("food1","Meals");
+ var food2label=label("food2","Briyani");
+ var food3label=label("food3","Shawarma");
+ var food4label=label("food4","Juice");
+ var food5label=label("food5","Parota");
  var stateLabel=label("state-name","State :");
  var countryLabel=label("country-name","Country :");
 
@@ -61,11 +61,11 @@ var addressname=input( "textarea" ,"textarea","address", "Address");
 var pincodename=input( "input" ,"text","pincode", "Pincode");
 var malename= radio("input","radio","gender","maleid","male","form-check-input")
 var femalename= radio("input","radio","gender","femaleid","female","form-check-input")
-var food1name=food("input","checkbox","food","food1","Noodles","form-check-input" )
-var food2name=food("input","checkbox","food","food2","Chicken","form-check-input" )
-var food3name=food("input","checkbox","food","food3","Briyani","form-check-input" )
-var food4name=food("input","checkbox","food","food4","Chapathi","form-check-input" )
-var food5name=food("input","checkbox","food","food5","Ice ccream","form-check-input" )
+var food1name=food("input","checkbox","food","food1","Meals","form-check-input" )
+var food2name=food("input","checkbox","food","food2","Briyani","form-check-input" )
+var food3name=food("input","checkbox","food","food3","Shawarma","form-check-input" )
+var food4name=food("input","checkbox","food","food4","Juice","form-check-input" )
+var food5name=food("input","checkbox","food","food5","Parota","form-check-input" )
 var statename=input( "input" ,"text","state-name", "State");
 var countryname=input( "input" ,"text","country-name", "Country");
 function createformdiv(classname) {
@@ -202,15 +202,10 @@ else{
      state.innerHTML=statedata
      country.innerHTML=countrydata
      document.getElementById('myTable').style.visibility = "visible";
-    
-    
+        
     document.getElementById("form").reset();
 }
 }
-
-
-
-
 
 
  div1.append(h1,p)
